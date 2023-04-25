@@ -1,4 +1,4 @@
 ﻿using AlgorithmAD.Basic;
 
-var slt = new IsSubsequence_392();
+var slt = new MergeTwoSortedLists21();
 slt.Test();

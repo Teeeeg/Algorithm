@@ -1,4 +1,4 @@
-namespace Algorithm;
+namespace Algorithm.Util;
 
 public class ListNode
 {

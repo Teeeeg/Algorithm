@@ -1,6 +1,6 @@
-namespace Algorithm;
+namespace Algorithm.Util;
 
-class ReverseLinkedList_206
+class ReverseLinkedList206
 {
     public ListNode ReverseList(ListNode head)
     {

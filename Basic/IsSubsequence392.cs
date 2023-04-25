@@ -2,7 +2,7 @@ using System.Diagnostics;
 
 namespace AlgorithmAD.Basic;
 
-public class IsSubsequence_392
+public class IsSubsequence392
 {
     public bool IsSubsequence(string s, string t)
     {

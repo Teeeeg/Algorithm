@@ -1,6 +1,6 @@
 namespace AlgorithmAD.Basic;
 
-public class FindPivotIndex_724
+public class FindPivotIndex724
 {
     public int PivotIndex(int[] nums)
     {

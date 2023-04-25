@@ -1,6 +1,6 @@
 namespace Algorithm;
 
-class TwoSum_1
+class TwoSum1
 {
     public int[] TwoSum(int[] nums, int target)
     {

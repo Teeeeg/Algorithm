@@ -1,6 +1,6 @@
-namespace Algorithm;
+namespace Algorithm.Util;
 
-class AddTwoNumbers_2
+class AddTwoNumbers2
 {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {

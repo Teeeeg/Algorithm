@@ -1,6 +1,6 @@
 namespace AlgorithmAD.Basic;
 
-public class IsomorphicStrings_205
+public class IsomorphicStrings205
 {
     public bool IsIsomorphic(string s, string t)
     {

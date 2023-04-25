@@ -1,6 +1,6 @@
 namespace AlgorithmAD.Basic;
 
-public class RunningSumof1dArray_1480
+public class RunningSumof1dArray1480
 {
     public int[] RunningSum(int[] nums)
     {
