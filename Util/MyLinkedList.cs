@@ -20,4 +20,6 @@ public class MyLinkedList
             cur = cur.next;
         }
     }
+    
+    public 
 }
