@@ -1,4 +1,6 @@
-namespace Algorithm;
+using AlgorithmAD.Extension;
+
+namespace AlgorithmAD.Basic;
 
 class TwoSum1
 {
@@ -10,9 +12,9 @@ class TwoSum1
         for (int i = 0; i < nums.Length; i++)
         {
             var numToFill = target - nums[i];
-            if (map.ContainsKey(numToFill))
+            if (map.TryGetValue(numToFill, out var value))
             {
-                res.Add(map[numToFill]);
+                res.Add(value);
                 res.Add(i);
                 break;
             }

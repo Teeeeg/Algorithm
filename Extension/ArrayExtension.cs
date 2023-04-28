@@ -1,18 +1,18 @@
 using System.Text;
 
-namespace Algorithm;
+namespace AlgorithmAD.Extension;
 
-static class ArrayExtension
+internal static class ArrayExtension
 {
-    public static void Print(this int[] array)
+    public static void Print(this IEnumerable<int> array)
     {
         var printStringBuilder = new StringBuilder();
         foreach (var item in array)
         {
             printStringBuilder.Append(item);
-            printStringBuilder.Append(" ");
+            printStringBuilder.Append(' ');
         }
 
-        System.Console.WriteLine(printStringBuilder.ToString());
+        Console.WriteLine(printStringBuilder.ToString());
     }
 }

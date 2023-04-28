@@ -1,4 +1,3 @@
 ﻿using AlgorithmAD.Basic;
+using AlgorithmAD.Util;
 
-var slt = new MergeTwoSortedLists21();
-slt.Test();
