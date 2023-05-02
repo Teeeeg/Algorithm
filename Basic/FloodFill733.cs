@@ -11,7 +11,7 @@ public class FloodFill733
 
         var m = image.Length;
         var n = image[0].Length;
-        var dirs = new List<(int rowDir, int colDir)>() { (-1, 0), (0, -1), (0, 1), (1, 0) };
+        var dirs = new List<(int rowDir, int colDir)> { (-1, 0), (0, -1), (0, 1), (1, 0) };
 
         var queue = new Queue<(int row, int col)>();
         var pixel = (sr, sc);
