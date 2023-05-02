@@ -5,7 +5,7 @@ public class BinarySearch704
     public int Search(int[] nums, int target)
     {
         var left = 0;
-        var right = nums.Length - 1;
+        var right = nums.Length;
 
         while (left <= right)
         {

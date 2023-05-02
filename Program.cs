@@ -1,4 +1,4 @@
 ﻿using AlgorithmAD.Basic;
-using AlgorithmAD.Util;
 
-Console.WriteLine("Hello");
+var slt = new FloodFill733();
+slt.Test();
