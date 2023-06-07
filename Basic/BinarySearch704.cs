@@ -5,25 +5,30 @@ public class BinarySearch704
     public int Search(int[] nums, int target)
     {
         var left = 0;
-        var right = nums.Length;
+        var right = nums.Length - 1;
 
-        while (left <= right)
+        while (left + 1 < right)
         {
             var mid = (left + right) / 2;
 
-            if (nums[mid] == target)
+            if (nums[mid] <= target)
             {
-                return mid;
-            }
-
-            if (nums[mid] > target)
-            {
-                right = mid - 1;
+                left = mid;
             }
             else
             {
-                left = mid + 1;
+                right = mid;
             }
+        }
+
+        if (nums[left] == target)
+        {
+            return left;
+        }
+
+        if (nums[right] == target)
+        {
+            return right;
         }
 
         return -1;
