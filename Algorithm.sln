@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmAD", "AlgorithmAD\AlgorithmAD.csproj", "{D1056A32-6700-4B13-970A-6FDF182C876B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm.Unit", "Algorithm.Unit\Algorithm.Unit.csproj", "{4819DE03-282D-4E2E-8A81-DA4CAF62F902}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D1056A32-6700-4B13-970A-6FDF182C876B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1056A32-6700-4B13-970A-6FDF182C876B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1056A32-6700-4B13-970A-6FDF182C876B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4819DE03-282D-4E2E-8A81-DA4CAF62F902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4819DE03-282D-4E2E-8A81-DA4CAF62F902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4819DE03-282D-4E2E-8A81-DA4CAF62F902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4819DE03-282D-4E2E-8A81-DA4CAF62F902}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
