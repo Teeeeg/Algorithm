@@ -6,8 +6,9 @@
 # Program.cs
 Program.cs
 
-# vscode
+# ide
 .vscode/
+.idea/
 
 # User-specific files
 *.rsuser

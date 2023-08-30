@@ -1,7 +1,7 @@
 ﻿namespace Algorithm.Unit;
 
 [TestFixture]
-public class RemoveDuplicatesfromSortedArray26_Unit
+public class RemoveDuplicatesfromSortedArray26_UT
 {
     private RemoveDuplicatesfromSortedArray26 myTestee;
 
