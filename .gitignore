@@ -6,6 +6,9 @@
 # Program.cs
 Program.cs
 
+# vscode
+.vscode/
+
 # User-specific files
 *.rsuser
 *.suo
